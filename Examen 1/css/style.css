@@ -1,0 +1,83 @@
+.navegation{
+	background-color: #4b4b4b;
+	height: 100px;
+	font-size: 24px;
+	color: #FFF;
+	line-height: 33px;
+	padding-top: 10px;
+}
+
+.img{
+	background-image: url(../imgs/img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80px;
+	height: 80px;
+}
+
+.video{
+	background-image: url(../imgs/video.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80px;
+	height: 80px;
+}
+
+.chat{
+	background-image: url(../imgs/chat.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 80px;
+	height: 80px;
+}
+
+.emp{
+	background-color: #FFF;
+	height: 90px;
+	width: 400px;
+}
+
+.imgheader{
+	background-color: #8bb8e2;
+	width: 475px;
+	height: 50px;
+}
+
+.imgcontainer{
+	background-color: #398fde;
+	width: 475px;
+	height: 550px;
+}
+
+.vidheader{
+	background-color: #d5e28b;
+	width: 700px;
+	height: 50px;
+}
+
+.vidcontainer{
+	background-color: #c2da3a;
+	width: 700px;
+	height: 650px;
+}
+
+.chatheader{
+	background-color: #e4a18c;
+	width: 631px;
+	height: 50px;
+}
+
+.chatroom{
+	background-color: #db6638;
+	width: 631px;
+	height: 850px;
+}
+
+ .chats{
+	background-color: #e4a18c;
+	width: 400px;
+}
+
+.chatbtn{
+	padding-left: 60px;
+}
