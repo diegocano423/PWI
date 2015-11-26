@@ -31,4 +31,4 @@ function GroceryListController($scope, $firebaseArray){
 	};
 
 
-});
+})
