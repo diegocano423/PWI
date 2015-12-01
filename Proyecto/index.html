@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Diego Cano">
+	<title>Proyecto PWI</title>
+
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
+	
+	<script type="text/javascript" src="parse.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="controllers.js"></script>
+	<script type="text/javascript" src="factories.js"></script>
+</head>
+<body ng-app="proyect">
+	<div class="header col-md-12">
+		<div class="row col-md-6">
+			<h1>Gamebook</h1>
+		</div>
+		<div class="row col-md-6">
+			<h2>Welcome to Gamebook! Here you can find any info of videogames or consoles, even the oldies!</h2> 
+		</div>
+	</div>
+	<div class="container col-md-12">
+		<div class="row col-md-6">
+			<a href="#/search" class="btn" role="button">Initialize Search!</a>
+		</div>
+	</div>
+	<div ng-view>
+
+	</div>
+</body>
+</html>

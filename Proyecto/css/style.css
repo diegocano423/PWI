@@ -1,0 +1,21 @@
+body{
+	font-family: helvetica;
+}
+
+h1{
+	font-size: 28px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.header{
+	color: #FFF;
+	background-color: #3498db;
+}
+
+.container{
+	color: #FFF;
+	background-color: #2ecc71;
+}
