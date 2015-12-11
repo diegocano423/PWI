@@ -1,4 +1,4 @@
-var controllers = angular.module('proyect.controllers', ['proyect.services'])
+var controllers = angular.module('proyect.controllers', ['proyect.factories'])
 
 controllers.controller('SearchController', 'gameList', 'platformList', 'gameInfo', 'platformInfo', 'platformGames', 'art', function($scope, $proyectData){
 	$scope.gameList = [];

@@ -1,4 +1,4 @@
-var proyect = angular.module('proyect', ['ngRoute', 'proyect.controllers', 'proyect.services'])
+var proyect = angular.module('proyect', ['ngRoute', 'proyect.controllers', 'proyect.factories'])
 
 proyect.config(['$routeProvider', function($routeProvider){
 	$routeProvider
