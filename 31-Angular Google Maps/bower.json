@@ -1,0 +1,21 @@
+{
+  "name": "index.html",
+  "authors": [
+    "diegocano423 <dcanoc@ucenfotec.ac.cr>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-google-maps": "~2.2.1"
+  }
+}
