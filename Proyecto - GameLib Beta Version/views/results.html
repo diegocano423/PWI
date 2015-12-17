@@ -1,0 +1,42 @@
+<div class="col-md-12">
+	<h2>Results of your search!</h2>
+	<div class="row col-md-4 results" ng-repeat="game in games.Game">
+		<h3> {{ game.GameTitle }} </h3>
+		<img src="{{ imgUrl(game) }}" class="img searchDisplay">
+		<p> {{ game.ReleaseDate }} </p>
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" ng-click="modalize($event)" id="{{ game.id }}">More Info!</button>
+		<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+   		 		<div class="modal-content">
+      				<div class="modal-header">
+       					<button type="button" class="close" data-dismiss="modal">&times;</button>
+       					<h4 class="modal-title">{{ currGame.GameTitle }} </h4>
+     	 			</div>
+      				<div class="modal-body">
+      					<img src="{{ imgUrl(currGame) }}" class="img-rounded modal-img">
+      					<label for="description" class="form-control">Description:</label>
+        			    <p name="description"> {{ currGame.Overview }} </p>
+        			    <label for="realease" class="form-control">Realease Date:</label>
+        			    <p name="release"> {{ currGame.ReleaseDate }} </p>
+        			    <label for="platform" class="form-control">Platform:</label>
+        			    <p name="platform"> {{ currGame.Platform }} </p>
+        			    <label for="players" class="form-control">Players:</label>
+        			    <p name="players"> {{ currGame.Players }} </p>
+        			    <label for="developer" class="form-control">Developer:</label>
+        			    <p name="developer"> {{currGame.Developer}} </p>
+        			    <label for="publisher" class="form-control">Publisher:</label>
+        			    <p name="publisher"> {{ currGame.Publisher }} </p>
+        			    <label for="esrb" class="form-control">ESRB:</label>
+        				<p name="esrb"> {{ currGame.ESRB }} </p>
+        			    <label for="rating" class="form-control">Rating:</label>
+        			    <p name="rating"> {{ currGame.Rating }} </p>
+      	 			</div>
+      			<div class="modal-footer">
+      				<h3 class="modal-title by">GameLib</h3>  
+      				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+      		</div>
+    	 </div>
+	  	</div>
+	</div>
+</div>

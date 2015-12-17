@@ -1,0 +1,23 @@
+{
+  "name": "Proyecto PWI",
+  "authors": [
+    "Diego Cano"
+  ],
+  "description": "Proyecto de Programacion Web Interactiva",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "polymer": "~1.2.3",
+    "polymer-simple-slider": "ruyadorno/polymer-simple-slider#~0.2.0"
+  }
+}
