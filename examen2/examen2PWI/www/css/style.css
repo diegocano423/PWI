@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+.main{
+	margin: 0 auto;
+}
+
+.second{
+	padding-left: 1em;
+}
+
+.img{
+	padding-top: 3.5em;
+	padding-left: 6.5em;
+}
+
+.right{
+	text-align: right;
+}
+
+.lorem{
+	text-align: left;
+}
